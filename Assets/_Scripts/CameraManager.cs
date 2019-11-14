@@ -9,7 +9,6 @@ public class CameraManager : MonoBehaviour
         StartCoroutine(Entry());
     }
 
-
     IEnumerator Entry()
     {
         float smoothTime = 1f;

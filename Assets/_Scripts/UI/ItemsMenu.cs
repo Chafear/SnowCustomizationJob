@@ -3,7 +3,6 @@ using UnityEngine.UI;
 using System.Collections;
 public class ItemsMenu : MonoBehaviour
 {
-    //HelmetData[] helmets;
     public GameObject helmetsParent, skiesParent, itemViewPrefab;
     public GameObject UI;
 

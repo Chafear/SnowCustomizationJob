@@ -196,6 +196,7 @@ MonoBehaviour:
   skiesParent: {fileID: 1578132879}
   itemViewPrefab: {fileID: 3576070896396783815, guid: d62b6b964c3b8b048a19be29350862a0,
     type: 3}
+  UI: {fileID: 162122551}
 --- !u!1 &162122551
 GameObject:
   m_ObjectHideFlags: 0
