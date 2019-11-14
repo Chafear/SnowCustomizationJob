@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 129864005}
   - component: {fileID: 129864002}
   - component: {fileID: 129864006}
+  - component: {fileID: 129864004}
   m_Layer: 0
   m_Name: MANAGER
   m_TagString: Untagged
@@ -165,6 +166,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &129864004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129864001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2d8151f34affbb41a07c26040edb117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: {fileID: 310217530}
 --- !u!114 &129864005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,6 +441,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274684394}
   m_CullTransparentMesh: 0
+--- !u!114 &310217530 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 523495651, guid: 9400661db07780846afa175851086a7c,
+    type: 3}
+  m_PrefabInstance: {fileID: 862798356}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &328477134
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,6 +702,14 @@ PrefabInstance:
     - target: {fileID: 4031294920179522, guid: 9400661db07780846afa175851086a7c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 575310844, guid: 9400661db07780846afa175851086a7c, type: 3}
+      propertyPath: m_Name
+      value: PLAYER NAME UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 523495649, guid: 9400661db07780846afa175851086a7c, type: 3}
+      propertyPath: m_Name
+      value: PLAYER NAME
       objectReference: {fileID: 0}
     - target: {fileID: 523495651, guid: 9400661db07780846afa175851086a7c, type: 3}
       propertyPath: m_fontStyle
