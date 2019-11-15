@@ -4,6 +4,15 @@ using System.Linq;
 
 public class ItemManager : MonoBehaviour
 {
+ 
+    //
+    // тут я сделал такой мини обжект пул
+    // айтемы пресоздаются заранее и скрываются
+    // я использовал лукап чтобы не придумывать велосипедов и хранить все обьекты вместе и получать к ним доступ по скриптбобжекту с их данными
+    // так можно использовать 1 ключ на пару лыж
+    //
+ 
+
     public ILookup<ItemData, GameObject> items;
 
     void Start()
@@ -31,8 +40,6 @@ public class ItemManager : MonoBehaviour
             i.GetComponent<Skies>().Init(skiesData, SkiesAlingmenet.Right);
             itemsTemp.Add(new KeyValuePair<ItemData, GameObject>(skiesData, i));
         }
-
         items = itemsTemp.ToLookup(kvp => kvp.Key, kvp => kvp.Value);
     }
-
 }
