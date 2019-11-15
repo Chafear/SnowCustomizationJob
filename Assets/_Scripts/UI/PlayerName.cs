@@ -6,7 +6,6 @@ public class PlayerName : MonoBehaviour
 
     void Start()
     {
-       
         var name = GameObject.FindGameObjectWithTag("DATA")?.GetComponent<PlayerNameData>().Get();
         if(name == "" || name == null)
         {
@@ -14,5 +13,4 @@ public class PlayerName : MonoBehaviour
         }
         playerName.text = name;
     }
-
 }
