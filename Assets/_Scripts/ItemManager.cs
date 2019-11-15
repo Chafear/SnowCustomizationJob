@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+
 public class ItemManager : MonoBehaviour
 {
     public ILookup<ItemData, GameObject> items;
@@ -28,7 +29,7 @@ public class ItemManager : MonoBehaviour
             itemsTemp.Add(new KeyValuePair<ItemData, GameObject>(skiesData, i));
 
             i = Instantiate(skiesData.skiRightPrefab, avatar.skiesRSlot.transform);
-            i.GetComponent<Skies>().Init(skiesData, SkiesAlingmenet.Rifht);
+            i.GetComponent<Skies>().Init(skiesData, SkiesAlingmenet.Right);
             itemsTemp.Add(new KeyValuePair<ItemData, GameObject>(skiesData, i));
         }
 

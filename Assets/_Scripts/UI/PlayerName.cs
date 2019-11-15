@@ -8,7 +8,7 @@ public class PlayerName : MonoBehaviour
     {
        
         var name = GameObject.FindGameObjectWithTag("DATA")?.GetComponent<PlayerNameData>().Get();
-        if(name == "")
+        if(name == "" || name == null)
         {
             name = METADATA.PLAYER_NAME_PLACEHOLDER;
         }

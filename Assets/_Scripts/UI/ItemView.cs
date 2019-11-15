@@ -1,7 +1,7 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+
 public class ItemView : MonoBehaviour
 {
     public TextMeshProUGUI itemName;

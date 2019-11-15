@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Skies : Item, IWearable
 {
@@ -29,5 +27,5 @@ public class Skies : Item, IWearable
 public enum SkiesAlingmenet
 {
     Left,
-    Rifht
+    Right
 }
