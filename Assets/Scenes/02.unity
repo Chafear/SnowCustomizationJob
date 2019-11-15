@@ -133,6 +133,8 @@ GameObject:
   - component: {fileID: 129864002}
   - component: {fileID: 129864006}
   - component: {fileID: 129864004}
+  - component: {fileID: 129864008}
+  - component: {fileID: 129864007}
   m_Layer: 0
   m_Name: MANAGER
   m_TagString: Untagged
@@ -211,6 +213,30 @@ MonoBehaviour:
   itemViewPrefab: {fileID: 3576070896396783815, guid: d62b6b964c3b8b048a19be29350862a0,
     type: 3}
   UI: {fileID: 162122551}
+--- !u!114 &129864007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129864001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461a363c0897cfd42bbc36e727a5c828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &129864008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129864001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3295b87fa07bc2a459539ed8ae0f2694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &162122551
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,7 +589,6 @@ GameObject:
   - component: {fileID: 610079612}
   - component: {fileID: 610079611}
   - component: {fileID: 610079610}
-  - component: {fileID: 610079613}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -636,18 +661,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 4.33, y: 0, z: 0}
---- !u!114 &610079613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 610079609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3295b87fa07bc2a459539ed8ae0f2694, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &862798356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -658,6 +671,38 @@ PrefabInstance:
     - target: {fileID: 1952309117825272, guid: 9400661db07780846afa175851086a7c, type: 3}
       propertyPath: m_Name
       value: Character_Skier_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 523495651, guid: 9400661db07780846afa175851086a7c, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 523495651, guid: 9400661db07780846afa175851086a7c, type: 3}
+      propertyPath: m_fontSize
+      value: 42.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 523495651, guid: 9400661db07780846afa175851086a7c, type: 3}
+      propertyPath: m_text
+      value: "\u0425\u041E\u0427\u0423 \u0420\u0410\u0411\u041E\u0422\u0423"
+      objectReference: {fileID: 0}
+    - target: {fileID: 523495651, guid: 9400661db07780846afa175851086a7c, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 523495651, guid: 9400661db07780846afa175851086a7c, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 523495651, guid: 9400661db07780846afa175851086a7c, type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 523495651, guid: 9400661db07780846afa175851086a7c, type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 523495651, guid: 9400661db07780846afa175851086a7c, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4031294920179522, guid: 9400661db07780846afa175851086a7c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -710,14 +755,6 @@ PrefabInstance:
     - target: {fileID: 523495649, guid: 9400661db07780846afa175851086a7c, type: 3}
       propertyPath: m_Name
       value: PLAYER NAME
-      objectReference: {fileID: 0}
-    - target: {fileID: 523495651, guid: 9400661db07780846afa175851086a7c, type: 3}
-      propertyPath: m_fontStyle
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 523495651, guid: 9400661db07780846afa175851086a7c, type: 3}
-      propertyPath: m_fontSize
-      value: 73.65
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9400661db07780846afa175851086a7c, type: 3}

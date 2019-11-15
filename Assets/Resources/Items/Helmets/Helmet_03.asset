@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Helmet_03
   m_EditorClassIdentifier: 
   name: HELMET 03
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 9b9d83e6af9d8894586a694b4cbbd09b, type: 3}
   helmetPrefab: {fileID: 7039228911434563697, guid: 98d12736e937aa044ba87792a00bd666,
     type: 3}

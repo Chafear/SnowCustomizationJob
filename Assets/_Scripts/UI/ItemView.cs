@@ -1,12 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 public class ItemView : MonoBehaviour
 {
     public TextMeshProUGUI itemName;
-    public void Init(string itemName)
+    public Image itemImage;
+
+    public void Init(string itemName, Sprite itemImage)
     {
         this.itemName.text = itemName;
+        this.itemImage.sprite = itemImage;
     }
 }

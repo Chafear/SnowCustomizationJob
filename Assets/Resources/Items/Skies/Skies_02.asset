@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skies_02
   m_EditorClassIdentifier: 
   name: SKIES 02
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: afacf2fa709690e42b305d63fe6de2df, type: 3}
   skiLeftPrefab: {fileID: 1495906095164888, guid: 9aa239d7de51b244aa3988411c549ad0,
     type: 3}
   skiRightPrefab: {fileID: 1873970663303862, guid: 194ca9b0db3fec14091ef1ec74c195c2,
