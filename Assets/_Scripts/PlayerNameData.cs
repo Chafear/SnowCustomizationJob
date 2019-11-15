@@ -14,7 +14,7 @@ public class PlayerNameData : MonoBehaviour
     {
         this.text = text;
     }
-    public string Get( )
+    public string Get()
     {
         return text;
     }

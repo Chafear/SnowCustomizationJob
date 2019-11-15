@@ -1,14 +1,18 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
 public class ItemsMenu : MonoBehaviour
 {
     public GameObject helmetsParent, skiesParent, itemViewPrefab;
     public GameObject UI;
 
+    Vector3 offset = new Vector3(-1000f, 0, 0);
+    float smoothTime = .7f;
+    int delay = 2;
+
     void Start()
     {
-        GetComponent<AnimationUtility>().Animate(UI, .7f, new Vector3(-1005f, 0, 0),2);
+        GetComponent<AnimationUtility>().Animate(UI, smoothTime, offset, delay);
+
         var helmets = Resources.LoadAll<HelmetData>(METADATA.HELMETS_PATH);
         var skies = Resources.LoadAll<SkiesData>(METADATA.SKIES_PATH);
 
